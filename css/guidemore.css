@@ -1,0 +1,58 @@
+
+.cm-dealmain{
+	border-bottom: 3px solid #dfdfdf;
+}
+.u-banner{
+	width: 100%;
+	max-height: 350px;
+}
+.u-pcol{
+	color: #7acc1d;
+}
+.cm-frmeb{
+	margin-top: 1.46vw;
+	padding: 0.245vw 0;
+	border-bottom: 1px solid #dfdfdf;
+}
+.cm-frmeb p{
+	padding:0 1.46vw;
+}
+.u-btucet{
+	text-align: center;
+	padding: 3px 0;
+}
+
+
+@media screen and (min-width:640px) {
+	.cm-dealmain,article{	
+	padding: 1.46vw 0;
+}
+.cm-frmeb{
+	height: 2.93vw;/*30*/
+}
+.u-pcol,.cm-frmeb p,.cu-btn,.u-longtx{
+	font-size: 1.37vw;/*14*/}
+.cu-btn,.u-longtx{
+	line-height: 2.44vw;/*25*/
+}
+.cu-btn{
+	width: 9.76vw;/*100*/
+	height: 2.93vw;/*30*/
+}
+}
+@media screen and (max-width:639px) {
+	.m-dealtext,article{	
+	padding: 1.46vw 4.88vw;
+}
+.cm-frmeb{
+	height: 30px;/*30*/
+}
+.u-pcol,.cm-frmeb p,.cu-btn,.u-longtx{
+	font-size: 14px;/*14*/
+	line-height: 21px;/*25*/
+}
+.cu-btn{
+	width: 100px;/*100*/
+	height: 30px;/*30*/
+}
+}

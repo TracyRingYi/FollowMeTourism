@@ -1,0 +1,135 @@
+
+.m-member{
+	text-align: center;
+}
+
+
+.m-merolt li:nth-child(even){
+	background: #f7f7f7;
+}
+
+.u-hideP{/*zhans*/
+	width: 0;
+	height: 0;
+}
+.m-merolt li:hover,.m-merolb li:hover{
+	background: #f1f1f1;
+}
+@media screen and (min-width:640px) and (orientation:landscape){
+	.m-bgg{
+	background: linear-gradient(0deg,#7acc1d 0%,#68ae18 100%);
+	padding: 0.97vw 1.46vw;/*1024 10 15*/
+	overflow: hidden;
+	color: #fff;
+}
+	.m-member img{
+	width: 6.33vw;/*70 */
+	height: 6.33vw;
+}
+.m-member,.m-meinfr{
+	float: left;
+	width: 50%;
+}
+    .m-merolt,.m-merolb {
+    	width: 22vw;
+    	margin: 1.94vw 0.28vw;
+    }
+    .m-merolt{
+    	float: left;
+    }
+    .m-merolb{
+    	float: right;
+    }
+    .m-member img,.u-menam,.u-meadd,.m-meinfr h2{
+	padding: 0.97vw 0;/*10*/
+}
+.m-meinfr h2,.m-meinfr ul{
+	padding-left: 1.46vw;/*15*/
+}
+.m-meinfr li:nth-child(n){
+	padding: 0.48vw 0;
+	color: #fff;
+}
+.m-bgg button{
+	float: right;
+	font-size:1.37vw;
+	background: none;
+	text-decoration: underline;
+	color: #fff;
+}
+}
+@media screen and (min-width:640px) and (orientation: portrait){
+	.m-bgg{
+	background: linear-gradient(0deg,#7acc1d 0%,#68ae18 100%);
+	padding: 0.97vw 1.46vw;/*1024 10 15*/
+	overflow: hidden;
+	color: #fff;
+}
+	.m-member,.m-meinfr{
+	float: left;
+	width: 50%;
+}
+	.m-member img{
+	width: 6.83vw;/*70*/
+	height: 6.83vw;
+}
+    .m-merolt,.m-merolb {
+    	width: 100%;
+    }
+    .m-member img,.u-menam,.u-meadd,.m-meinfr h2{
+	padding: 0.97vw 0;/*10*/
+}
+.m-meinfr h2,.m-meinfr ul{
+	padding-left: 1.46vw;/*15*/
+}
+.m-meinfr li:nth-child(n){
+	padding: 0.48vw 0;
+	color: #fff;
+}
+.m-bgg button{
+	float: right;
+	font-size:1.37vw;
+	background: none;
+	text-decoration: underline;
+	color: #fff;
+}
+}
+@media screen and (max-width:639px){
+	.m-member{
+		background: linear-gradient(0deg,#7acc1d 0%,#68ae18 100%);
+		padding: 0.97vw 1.46vw;/*1024 10 15*/
+		overflow: hidden;
+		color: #fff;
+	}
+	.m-member img{
+	width: 80px;/*70 */
+	height: 80px;
+}
+    .m-member img,.m-member h2{
+    padding: 10px 0;
+    }
+    section:not(.m-bgg),.m-meinfr{
+    	padding: 5px 4.88vw;
+    }
+    section:not(.m-bgg) img,.m-meinfr img{
+    	display: inline-block;
+    	width: 45px;
+    	height: 45px;
+    }
+    section:not(.m-bgg) h2,.m-meinfr h2{
+    	display: inline-block;
+    	line-height: 45px;
+    }
+    .m-bgg form{
+    	text-align: center;
+    }
+    .m-bgg button{
+    width: 60px;
+    height: 30px;
+	font-size:14px;
+	line-height: 30px;
+	background: #7acc1d;
+	color: #fff;
+	text-align: center;
+}
+}

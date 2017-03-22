@@ -1,0 +1,40 @@
+.cm-forum{
+	overflow: hidden;
+}
+.cu-frtil,.cu-frcon{
+	float: left;
+}
+.cu-frnam,.cu-frtim{
+	float: right;
+}
+
+@media screen and (min-width:640px){
+	.cm-forum{
+	border-bottom: 1px solid #666;
+}
+	.cu-cidnav{
+	width: 9.76vw;
+}
+	.cu-frtil,.cu-frcon{
+	width: 68.33vw;
+}
+    .cu-frnam{
+	width: 8.79vw;
+}
+}
+@media screen and (max-width:639px) {
+	.cm-forum{
+	padding: 0 4.88vw;
+	border-bottom: 3px solid #dfdfdf;
+}
+	.cu-cidnav{
+	width: 50vw;
+}
+
+	.cu-frtil,.cu-frcon{
+	width: 68.33vw;
+}
+    .cu-frnam{
+	width: 8.79vw;
+}
+}

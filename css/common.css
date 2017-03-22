@@ -1,0 +1,125 @@
+#cm-box{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom: 2.93vw;
+    text-align: center;
+}
+#cm-box ul{
+    display: inline-block;
+}
+.cu-cidnav{
+    text-align: center;
+    float: left;
+}
+.cu-cidnav:hover,.cm-ati{
+    color: #7acc1d;
+}
+
+.cu-btn{
+    background: #7acc1d;
+    color: #fff;
+    text-align: center;
+}
+
+.cu-list,.cu-list li{
+    float: left;
+}
+.cu-liimg{
+    width: 100%;
+    max-height: 170px;
+}
+.cm-forum{
+    padding: 0.97vw 0.97vw;
+}
+.cm-frtx h2,.cm-frtx p,.cm-frtx li{
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+.cm-frtx p,.cm-frtx li{
+    color: #666;
+}
+.cm-forum:hover{
+    background: #f1f1f1;
+}
+.cm-frmeb img,.cm-frmeb p{
+    float: left;
+}
+#cm-tabcon>*{
+    display: none;
+}
+#cm-tabcon .cm-aper{
+    display: block;
+}
+
+
+@media screen and (min-width:640px) {
+    body{
+    padding: 0 4.88vw;
+    }/*暂时*/
+    #cg-connobod{
+    width: 90.24vw;
+    }
+    .cm-frtx h2{
+    font-size: 1.56vw;/*16*/
+    line-height: 2.93vw;/*30*/}
+    .cm-frtx p,.cm-frtx li{
+    font-size: 1.37vw;/*14*/
+    line-height: 2.44vw;/*25*/}
+    .cu-list li{
+    width: 20vw;
+    margin-right: 3.41vw;
+    }
+    .cu-list{
+    margin-right: -3.41vw;
+    }
+    .cu-cidnav{
+    height: 4.88vw;
+    font-size: 1.95vw;
+    line-height: 4.88vw;
+    }
+    .cu-cidnav:hover,.cm-ati{
+    height:4.59vw;
+    border-bottom: 0.29vw solid #7acc1d;
+    }
+    .cm-frmeb img{
+    width: 2.44vw;
+    height: 2.44vw;
+}
+.cm-dealmain h2{
+    font-size: 1.56vw;/*16*/
+    line-height: 2.93vw;/*30*/
+}
+}
+@media screen and (max-width:639px){
+    .cm-frtx h2 {
+  font-size: 16px;
+  line-height: 24px; }
+.cm-frtx p ,.cm-frtx li{
+  font-size: 14px;
+  line-height: 21px; }
+    .cu-list li{
+    width: 43.41vw;
+    margin-right: 3.41vw;
+    }
+    .cu-list{
+    margin-right: -3.41vw;
+    }
+    .cu-cidnav{
+    height: 35px;
+    font-size: 16px;
+    line-height: 35px;
+    }
+    .cm-ati{
+    height:33px;
+    border-bottom: 2px solid #7acc1d;
+    }
+    .cm-frmeb img{
+    width: 22px;
+    height: 22px;
+}
+.cm-dealmain h2{
+    font-size: 16px;/*16*/
+    line-height: 24px;/*30*/
+}
+}
