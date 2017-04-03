@@ -1,0 +1,258 @@
+iframe{
+    overflow-x:hidden;overflow-y:auto;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.g-header{
+	z-index: 1000;
+	position: fixed;
+	left:0px;
+	top: 0px;
+}
+.m-logo{
+	font-family: Century Gothic;
+	color: #fff;
+}
+.m-search{
+	overflow: hidden;
+}
+.m-search form input{
+	background: #fff;
+	float: left;
+}
+.m-fatnav ul{
+	list-style-type: none;
+}
+.m-fatnav ul a li{
+	color: #fff;
+}
+.m-fatnav ul a li:hover, .m-aper{ 
+	background: rgba(255,255,255,0.9);
+	color: #68ae18;
+}
+.u-search::before, .u-search::after{
+    content:'';  display:block; 
+    position:absolute; top:0; left:0; }
+
+.u-search::before{ border:3px #333 solid; 
+    border-radius:100%;-webkit-border-radius:100%;
+    -moz-border-radius:100%;}
+
+.u-search::after{ background:#333; 
+    transform:rotate(-45deg);-webkit-transform:rotate(-45deg);
+    -moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);
+    -ms-transform:rotate(-45deg); }
+@media screen and (min-width:960px) and (orientation:landscape){
+	.g-header{
+	width: 25vw;/*341.5/1366*/
+    height: 100vh;
+	padding-top:6.51vh;/*50/768,6.51%*/ 
+	background: linear-gradient(90deg,#7acc1d 0%,#68ae18 100%);
+    }
+    .m-logo{
+    	min-height: 14.32vh;/*110/768,15.32%*/
+	    margin: 3.9vh 0;/*30/768,4.19%*/
+	    font-size: 2.2vw;
+	    text-align: center;
+	}
+	.m-logo img{
+	padding:0 3.66vw;/*50/170.75*/
+	max-width: 100%;
+    }
+    .m-search form{
+	width: 17.5vw;/*239.05/341.5*/
+	margin: 2.6vh 3.75vw;/*20/768,2.79%*/
+    }
+    .m-search form input{
+    width: 17.5vw;
+	font-size: 1.46vw;
+	min-height: 30px;/*30/768*/
+    }
+    .m-search form button{
+    background-color: #fff;
+	position: absolute;
+	right: 4.39vw;/*50/341.5*/
+	width: 24px;/*30/239.05*/
+	min-height: 24px;/*30/768*/
+    display:block;
+    margin-top: 0.3vw;
+    }
+.u-search::before, .u-search::after{
+     height:12px;  }
+
+.u-search::before{width:12px; }
+
+.u-search::after{width:3px; top:13px; left:17px;}
+    .m-fatnav{
+	width: 25vw;
+	margin: 2.6vh 0;/*20/768*/
+    }
+    .m-fatnav ul a li{
+	font-size: 1.46vw;/*20/16*/
+	line-height: 3.66vw;/*50/20*/
+	padding: 0 6.25vw;
+	margin: 1.3vh 0;/*10/718*/
+    }
+    #g-contentPC{/*pc*/
+    width: 75vw;
+	height: 100vh;
+	margin-left: 25vw;
+	border: 0;
+    }
+    #g-contentPC body{
+	width: 75vw;
+    }
+}
+@media screen and (min-width:640px) and (max-width:959px),(orientation: portrait){
+	.g-header{
+	width: 94vw;
+    height: 5.2vw;
+	background: #7acc1d;
+	padding: 0 3vw;
+    }
+    .m-logo,.m-fatnav ul li,.m-logo h1,.m-logo img{
+    	float: left;
+    }
+    .m-search,.m-fatnav{
+    	float: right;
+    }
+    .m-logo{
+    	height: 3.65vw;/*110/768,15.32%*/
+	    font-size: 2.34vw;
+	    padding: 0.5vw 5px;
+	}
+	.m-logo img{
+		max-height: 4.17vw;
+    }
+    .m-logo h1{
+    	font-size: 2.93vw;
+    	line-height: 4.17vw;
+    	padding: 0 5px;
+    }
+    .m-search,.m-search form{
+    	overflow: hidden;
+    }
+    .m-search form{
+    	position: relative;
+    	margin-left:5vw;
+    }
+    .m-search form input{
+    width: 20vw;
+	font-size: 1.82vw;
+    height: 3.125vw;/*30/768*/
+    margin: 1.04vw 0;
+    }
+    .m-search form button{
+    background-color: #fff;
+	position: absolute;
+	top: 1.1vw;
+	right: 0.7vw;/*50/341.5*/
+	width: 2.125vw;/*30/239.05*/
+	height: 2.125vw;/*30/768*/
+    margin-top: 0.2vw;
+    }
+    .u-search::before, .u-search::after{
+        height:1.31vw;}
+    .u-search::before{
+            width:1.31vw;}
+    .u-search::after{width:0.32vw;top:1.42vw; left:1.86vw;}
+    .m-fatnav{
+    	width: 25.2vw;
+    }
+    .m-fatnav ul a li{
+    width: 5.9vw;
+	font-size: 2.08vw;/*20/16*/
+	line-height: 5.2vw;/*50/20*/
+	padding: 0 1.25vw;
+	text-align: center;
+    }
+    #g-contentPC{/*pc*/
+	width: 100vw;
+	height: 100vh;
+	margin-top:5.2vw;
+	border: 0;
+    }
+    #g-contentPC body{
+	width: 100vw;
+    }
+}
+@media screen and (max-width:639px){
+	.g-header{
+	width: 94vw;
+    height: 42.24px;
+	background: #7acc1d;
+	padding: 0 3vw;
+    }
+    .m-logo,.m-fatnav ul li,.m-logo h1,.m-logo img{
+    	float: left;
+    }
+    .m-search,.m-fatnav{
+    	float: right;
+    }
+    .m-logo{
+    	height: 36.24px;/*110/768,15.32%*/
+	    padding: 3px 5px;
+	}
+	.m-logo img{
+		max-height: 36.24px;
+    }
+    .m-logo h1{
+        font-size: 24px;
+        line-height: 36.24px;
+    }
+    .m-search,.m-search form{
+    	overflow: hidden;
+        height: 42.24px;
+    }
+    .m-search{
+        display: none;
+    }
+    .m-search form{
+    	position: relative;
+    	margin-left:5vw;
+    }
+    .m-search form input{
+    width: 120px;
+    font-size: 18px;
+    height: 30.24px;/*30/768*/
+    margin: 6px 0;
+    }
+    .m-search form button{
+	width: 20px;/*30/239.05*/
+	height: 20px;/*30/768*/
+    background-color: #fff;
+    position: absolute;
+    top: 9px;
+    right: 0.7vw;/*50/341.5*/
+    }
+    .u-search::before, .u-search::after{
+        height:10px;}
+    .u-search::before{
+            width:10px;}
+    .u-search::after{width:3px;top:11px; left:16px;}
+    .m-fatnav{
+        width: 25.2vw;
+    }
+    .m-fatnav{
+    	width: 150px;
+    }
+    .m-fatnav ul a li{
+    width: 40px;
+	font-size: 18px;/*20/16*/
+	line-height: 42.24px;/*50/20*/
+	padding: 0 5px;
+	text-align: center;
+    }
+    #g-contentPC{/*pc*/
+	width: 100vw;
+	height: 100vh;
+	margin-top:42.24px;
+	border: 0;
+    }
+    #g-contentPC body{
+	width: 100vw;
+    }
+
+
+}
