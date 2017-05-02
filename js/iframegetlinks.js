@@ -12,7 +12,7 @@ function addLoadEvent(func){
 function initLinks(){
 	var links=document.getElementsByTagName("a");
 	var ifrbox=document.getElementById("g-contentPC");
-	ifrbox.setAttribute('src','index.html');
+	ifrbox.setAttribute('src','home.html');
 	var ifrname=ifrbox.name;
 	for(var i=0;i<links.length;i++){
 		links[i].setAttribute("target",ifrname);
