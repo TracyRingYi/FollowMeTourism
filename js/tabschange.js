@@ -1,4 +1,15 @@
-var getChildNodes=function(ele){
+function addLoadEvent(func){
+	var oldonload=window.onload;
+	if(typeof window.onload!='function'){
+		window.onload=func;
+	}else{
+		window.onload=function(){
+			oldonload;
+			func();
+		}
+	}
+}
+function getChildNodes(ele){
 	var childArr=ele.childNodes;
 	childArrTem=[];
 	for(var i=0;i<childArr.length;i++){
@@ -8,6 +19,7 @@ var getChildNodes=function(ele){
 	}
 	return childArrTem;
 }
+function changeTabs(){
 	var tabbox=document.getElementById('cm-box');
 	var conbox=document.getElementById('cm-tabcon');
 	var tabs=tabbox.getElementsByTagName('li');
@@ -23,4 +35,5 @@ for(var i=0;i<tabs.length;i++){
 		cons[this.index].className='cm-aper';
 	}
 }
-
+}
+addLoadEvent(changeTabs);
