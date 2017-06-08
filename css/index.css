@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .m-banner{
     overflow: hidden;
     position: relative;
@@ -37,6 +38,11 @@
             .dots .dots_active{
                 background: #7acc1d;
             }
+=======
+.m-banner img{
+	max-height: 350px;
+}
+>>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
 .cm-itemlist{
     margin: 1.95vw auto;
     overflow: hidden;
@@ -52,9 +58,12 @@
 .u-list li{
 	position: relative;
 }
+<<<<<<< HEAD
 .u-note{
     display: none;
 }
+=======
+>>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
 .u-only{
     font-size: 1.76vw;
     color: #fff;
@@ -65,10 +74,13 @@
 	color: #7acc1d;
 }
 @media screen and (min-width:640px) {
+<<<<<<< HEAD
 .m-banner{
     width: 90.24vw;
     height: 33.98vw;
 }
+=======
+>>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
     .cm-itemlist{
     width: 100%;
 }
@@ -86,6 +98,7 @@
     font-size: 1.95vw;
     line-height: 2.92vw;
 }
+<<<<<<< HEAD
 .u-note{
     width: 14vw;
     position: absolute;
@@ -103,6 +116,10 @@
     width: 100vw;
     height: 51.26vw;
 }
+=======
+}
+@media screen and (max-width:639px){
+>>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
 .cu-inxh1 {
   font-size: 18px;
   line-height: 27px; }

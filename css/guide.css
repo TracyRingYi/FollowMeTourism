@@ -14,7 +14,11 @@
     overflow: hidden;
     margin: 2.93vw auto;
 }
+<<<<<<< HEAD
 .u-liarti,.u-lifocus,.u-liface,.u-liname{
+=======
+.u-lists li h2,.u-liarti,.u-lifocus,.u-liface,.u-liname{
+>>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
 	padding-top: 0.88vw;
 }
 .u-lists li h2{
@@ -42,12 +46,20 @@
     }
 }
 @media screen and (min-width:640px) {
+<<<<<<< HEAD
     .u-sel, .u-btn,.u-sel option{
+=======
+    .u-sel, .u-btn{
+>>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
     height: 4.88vw;
     font-size: 1.95vw;
 	line-height: 4.88vw;
     }
+<<<<<<< HEAD
     .u-sel, .u-sel option{
+=======
+    .u-sel{
+>>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
     width: 21.47vw;
     margin-right: 1.95vw;
     padding: 0 1.46vw;
@@ -72,6 +84,7 @@
 	.u-lists li{
 	margin-bottom: 1.95vw; 
     }
+<<<<<<< HEAD
     .u-lists li:hover{
         box-shadow: 1px 2px 5px #B0B0B0;
     }
@@ -81,11 +94,20 @@
 }
 @media screen and (max-width:639px) {
     .u-sel, .u-btn, .u-sel option{
+=======
+}
+@media screen and (max-width:639px) {
+    .u-sel, .u-btn{
+>>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
     height: 35px;
     font-size: 16px;
     line-height: 35px;
     }
+<<<<<<< HEAD
     .u-sel, .u-sel option{
+=======
+    .u-sel{
+>>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
     width: 22.24vw;
     padding: 0 1.38vw;
     }

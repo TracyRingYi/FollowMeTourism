@@ -1,0 +1,65 @@
+.m-bgg{
+	background: linear-gradient(0deg,#7acc1d 0%,#68ae18 100%);
+	padding: 0.97vw 1.46vw;/*1024 10 15*/
+	overflow: hidden;
+	color: #fff;
+}
+.m-member,.m-meinfr{
+	float: left;
+	width: 50%;
+}
+.m-member{
+	text-align: center;
+}
+.m-member img,.u-menam,.u-meadd,.m-meinfr h2{
+	padding: 0.97vw 0;/*10*/
+}
+.m-meinfr h2,.m-meinfr ul{
+	padding-left: 1.46vw;/*15*/
+}
+.m-meinfr li:nth-child(n){
+	padding: 0.48vw 0;
+	color: #fff;
+}
+.m-merolt li:nth-child(even){
+	background: #f7f7f7;
+}
+.m-bgg button{
+	float: right;
+	font-size:1.37vw;
+	background: none;
+	text-decoration: underline;
+	color: #fff;
+}
+.u-hideP{/*zhans*/
+	width: 0;
+	height: 0;
+}
+.m-merolt li:hover,.m-merolb li:hover{
+	background: #f1f1f1;
+}
+@media screen and (min-width:960px) and (orientation:landscape){
+	.m-member img{
+	width: 5.12vw;/*70 */
+	height: 5.12vw;
+}
+    .m-merolt,.m-merolb {
+    	width: 22vw;
+    	margin: 1.94vw 0.28vw;
+    }
+    .m-merolt{
+    	float: left;
+    }
+    .m-merolb{
+    	float: right;
+    }
+}
+@media screen and (min-width:640px) and (max-width:959px),(orientation: portrait){
+	.m-member img{
+	width: 6.83vw;/*70*/
+	height: 6.83vw;
+}
+    .m-merolt,.m-merolb {
+    	width: 100%;
+    }
+}
