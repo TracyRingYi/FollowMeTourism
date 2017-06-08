@@ -8,7 +8,6 @@
 	background: #f7f7f7;
 }
 
-<<<<<<< HEAD
 .m-merolt li:hover,.m-merolb li:hover{
 	background: #f1f1f1;
 }
@@ -16,15 +15,6 @@
 	border-top: 0.1vw solid  #aaa;
 	padding: 0.5vw 0;
 }
-=======
-.u-hideP{/*zhans*/
-	width: 0;
-	height: 0;
-}
-.m-merolt li:hover,.m-merolb li:hover{
-	background: #f1f1f1;
-}
->>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
 @media screen and (min-width:640px) and (orientation:landscape){
 	.m-bgg{
 	background: linear-gradient(0deg,#7acc1d 0%,#68ae18 100%);
@@ -36,24 +26,16 @@
 	width: 6.33vw;/*70 */
 	height: 6.33vw;
 }
-<<<<<<< HEAD
 .u-hideP{/*zhans*/
     display: none;
 }
-=======
->>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
 .m-member,.m-meinfr{
 	float: left;
 	width: 50%;
 }
     .m-merolt,.m-merolb {
-<<<<<<< HEAD
     	width: 20vw;
     	margin: 1.94vw 1.28vw;
-=======
-    	width: 22vw;
-    	margin: 1.94vw 0.28vw;
->>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
     }
     .m-merolt{
     	float: left;
@@ -71,23 +53,16 @@
 	padding: 0.48vw 0;
 	color: #fff;
 }
-<<<<<<< HEAD
 .m-bgg button, .m-bgg a{
-=======
-.m-bgg button{
->>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
 	float: right;
 	font-size:1.37vw;
 	background: none;
 	text-decoration: underline;
 	color: #fff;
-<<<<<<< HEAD
 	padding-left:2vw ;
 }
 section .flip img{
 	display: none;
-=======
->>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
 }
 }
 @media screen and (min-width:640px) and (orientation: portrait){
@@ -125,13 +100,10 @@ section .flip img{
 	text-decoration: underline;
 	color: #fff;
 }
-<<<<<<< HEAD
 .panel{
 	display: none;
 } 
 
-=======
->>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
 }
 @media screen and (max-width:639px){
 	.m-member{
@@ -162,20 +134,14 @@ section .flip img{
     .m-bgg form{
     	text-align: center;
     }
-<<<<<<< HEAD
     .m-bgg button, .m-bgg a{
     width: 80px;
-=======
-    .m-bgg button{
-    width: 60px;
->>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
     height: 30px;
 	font-size:14px;
 	line-height: 30px;
 	background: #7acc1d;
 	color: #fff;
 	text-align: center;
-<<<<<<< HEAD
 	display: inline-block;
 }
 .panel{
@@ -183,7 +149,5 @@ section .flip img{
 }
 .panel ul a li h2{
 	line-height: 24px;
-=======
->>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
 }
 }

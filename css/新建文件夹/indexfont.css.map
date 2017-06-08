@@ -1,7 +1,0 @@
-{
-"version": 3,
-"mappings": "AAIA,SAAS;EACL,SAAS,EALD,IAAI;EAMZ,WAAW,EAAE,IAAe;;AAEhC,OAAO;EACN,SAAS,EARE,IAAI;;AAWf,WAAE;EACF,SAAS,EAZE,IAAI;EAaf,WAAW,EAAC,IAAe;AAE5B,UAAC;EACA,SAAS,EAfC,IAAI;EAgBd,WAAW,EAAC,MAAc",
-"sources": ["indexfont.scss"],
-"names": [],
-"file": "indexfont.css"
-}

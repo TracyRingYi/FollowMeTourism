@@ -9,18 +9,13 @@ function addLoadEvent(func){
 		}
 	}
 }
-<<<<<<< HEAD
 function initlinks(){
-=======
-function initLinks(){
->>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
 	var links=document.getElementsByTagName("a");
 	var ifrbox=document.getElementById("g-contentPC");
 	ifrbox.setAttribute('src','home.html');
 	var ifrname=ifrbox.name;
 	for(var i=0;i<links.length;i++){
 		links[i].setAttribute("target",ifrname);
-<<<<<<< HEAD
 		//点击，重置状态，设立当前高亮
 		/*point[i].onclick=function(){
             for(var j=0;j<point.length;j++){
@@ -54,17 +49,3 @@ function initLinks(){
 	}
 }
 addLoadEvent(initlinks);
-=======
-	}
-	for(var j=0;j<links.length;j++){
-		links[j].onclick=function(){
-	if(j!=0){
-		links[j].className="m-aper";
-	}
-	return false;
-}
-}
-}
-
-addLoadEvent(initLinks);
->>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5

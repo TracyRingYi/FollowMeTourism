@@ -27,15 +27,9 @@ body::-webkit-scrollbar {
 .m-fatnav ul a li{
 	color: #fff;
 }
-<<<<<<< HEAD
 .m-fatnav ul a li:hover, .m-aper li{ 
 	background: rgba(255,255,255,0.9);
 	color: #68ae18 !important;
-=======
-.m-fatnav ul a li:hover, .m-aper{ 
-	background: rgba(255,255,255,0.9);
-	color: #68ae18;
->>>>>>> c9f3826b043a4913f507bbac7ca8f488c5125fa5
 }
 .u-search::before, .u-search::after{
     content:'';  display:block; 
