@@ -8,12 +8,12 @@
 	background: #f7f7f7;
 }
 
-.u-hideP{/*zhans*/
-	width: 0;
-	height: 0;
-}
 .m-merolt li:hover,.m-merolb li:hover{
 	background: #f1f1f1;
+}
+.panel ul a li{
+	border-top: 0.1vw solid  #aaa;
+	padding: 0.5vw 0;
 }
 @media screen and (min-width:640px) and (orientation:landscape){
 	.m-bgg{
@@ -26,13 +26,16 @@
 	width: 6.33vw;/*70 */
 	height: 6.33vw;
 }
+.u-hideP{/*zhans*/
+    display: none;
+}
 .m-member,.m-meinfr{
 	float: left;
 	width: 50%;
 }
     .m-merolt,.m-merolb {
-    	width: 22vw;
-    	margin: 1.94vw 0.28vw;
+    	width: 20vw;
+    	margin: 1.94vw 1.28vw;
     }
     .m-merolt{
     	float: left;
@@ -50,12 +53,16 @@
 	padding: 0.48vw 0;
 	color: #fff;
 }
-.m-bgg button{
+.m-bgg button, .m-bgg a{
 	float: right;
 	font-size:1.37vw;
 	background: none;
 	text-decoration: underline;
 	color: #fff;
+	padding-left:2vw ;
+}
+section .flip img{
+	display: none;
 }
 }
 @media screen and (min-width:640px) and (orientation: portrait){
@@ -93,6 +100,10 @@
 	text-decoration: underline;
 	color: #fff;
 }
+.panel{
+	display: none;
+} 
+
 }
 @media screen and (max-width:639px){
 	.m-member{
@@ -123,13 +134,20 @@
     .m-bgg form{
     	text-align: center;
     }
-    .m-bgg button{
-    width: 60px;
+    .m-bgg button, .m-bgg a{
+    width: 80px;
     height: 30px;
 	font-size:14px;
 	line-height: 30px;
 	background: #7acc1d;
 	color: #fff;
 	text-align: center;
+	display: inline-block;
+}
+.panel{
+	display: none;
+}
+.panel ul a li h2{
+	line-height: 24px;
 }
 }

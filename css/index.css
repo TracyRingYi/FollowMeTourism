@@ -1,6 +1,42 @@
+.m-banner{
+    overflow: hidden;
+    position: relative;
+}
 .m-banner img{
 	max-height: 350px;
+    position: absolute;
+    top: 0;
+    left: 0;    
+    transition: opacity 0.8s ease-in 0s;
+    opacity: 0;
+    z-index: 1;
 }
+.m-banner .ban_active {
+                opacity: 1;
+                z-index: 5;      
+            }
+.dots{
+                position: absolute;
+                left: 0;
+                bottom: 10px;
+                width: 100%;
+                height: 20px;
+                text-align: center;
+                z-index: 10;
+            }
+            .dots a{
+                display: inline-block;
+                width: 8px;
+                height: 8px;
+                margin: 5px;
+                background: #ffd;
+                -moz-border-radius: 4px;
+                -webkit-border-radius: 4px;
+                 border-radius: 4px;
+            }
+            .dots .dots_active{
+                background: #7acc1d;
+            }
 .cm-itemlist{
     margin: 1.95vw auto;
     overflow: hidden;
@@ -16,6 +52,9 @@
 .u-list li{
 	position: relative;
 }
+.u-note{
+    display: none;
+}
 .u-only{
     font-size: 1.76vw;
     color: #fff;
@@ -26,6 +65,10 @@
 	color: #7acc1d;
 }
 @media screen and (min-width:640px) {
+.m-banner{
+    width: 90.24vw;
+    height: 33.98vw;
+}
     .cm-itemlist{
     width: 100%;
 }
@@ -43,8 +86,23 @@
     font-size: 1.95vw;
     line-height: 2.92vw;
 }
+.u-note{
+    width: 14vw;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(122,204,29,0.4);
+    padding: 2vw 3vw;
+    z-index: 5;
+    color: #fff;
+    height: 100%;
+}
 }
 @media screen and (max-width:639px){
+.m-banner{
+    width: 100vw;
+    height: 51.26vw;
+}
 .cu-inxh1 {
   font-size: 18px;
   line-height: 27px; }

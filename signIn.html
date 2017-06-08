@@ -19,21 +19,21 @@
 			</div>
 	<div id="cm-tabcon">
 		<section class="cm-aper">
-		    <form action="#" method="get">
+		    <form action="#" method="get" onsubmit="return formCheck(this);">
 		        <div class="m-groinps">
-				<input type="text" placeholder="邮箱" autofocus name="email">
-				<input type="password" placeholder="密码" name="password" maxlength="16">	
+				<input type="text" placeholder="邮箱" autofocus name="email" required="required">
+				<input type="password" placeholder="密码" name="password" maxlength="16" required="required">	
 				</div>
 		        <button class="cu-btn" type="submit">登录</button> 
 			    <a href="#" class="findPw">忘记密码？</a>
 			</form>
 		</section>
         <section>
-		    <form action="#" method="get">
+		    <form action="#" method="get" onsubmit="return formCheck(this);">
 		        <div class="m-groinps">
-		        <input type="text" placeholder="昵称" autofocus name="name">
-				<input type="text" placeholder="邮箱" autofocus name="email">
-				<input type="password" placeholder="密码6-16位" name="password" maxlength="16">
+		        <input type="text" placeholder="昵称" autofocus name="name" required="required">
+				<input type="text" placeholder="邮箱" autofocus name="email" required="required">
+				<input type="password" placeholder="密码6-16位" name="password" maxlength="16" required="required">
 				</div>
 		        <button class="cu-btn" type="submit">注册</button> 
 		    </form>
@@ -43,4 +43,5 @@
 	<footer>
 	</footer>
 	<script src="js/tabschange.min.js"></script>
+	<script src="js/formcheck.min.js"></script>
 </body>

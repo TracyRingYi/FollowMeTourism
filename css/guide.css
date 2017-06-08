@@ -14,7 +14,7 @@
     overflow: hidden;
     margin: 2.93vw auto;
 }
-.u-lists li h2,.u-liarti,.u-lifocus,.u-liface,.u-liname{
+.u-liarti,.u-lifocus,.u-liface,.u-liname{
 	padding-top: 0.88vw;
 }
 .u-lists li h2{
@@ -42,12 +42,12 @@
     }
 }
 @media screen and (min-width:640px) {
-    .u-sel, .u-btn{
+    .u-sel, .u-btn,.u-sel option{
     height: 4.88vw;
     font-size: 1.95vw;
 	line-height: 4.88vw;
     }
-    .u-sel{
+    .u-sel, .u-sel option{
     width: 21.47vw;
     margin-right: 1.95vw;
     padding: 0 1.46vw;
@@ -72,14 +72,20 @@
 	.u-lists li{
 	margin-bottom: 1.95vw; 
     }
+    .u-lists li:hover{
+        box-shadow: 1px 2px 5px #B0B0B0;
+    }
+    .u-litext{
+        padding: 1vw;
+    }
 }
 @media screen and (max-width:639px) {
-    .u-sel, .u-btn{
+    .u-sel, .u-btn, .u-sel option{
     height: 35px;
     font-size: 16px;
     line-height: 35px;
     }
-    .u-sel{
+    .u-sel, .u-sel option{
     width: 22.24vw;
     padding: 0 1.38vw;
     }
