@@ -101,7 +101,7 @@
 @media screen and (max-width:639px){
 .m-banner{
     width: 100vw;
-    height: 51.26vw;
+    min-height: 37.26vw;
 }
 .cu-inxh1 {
   font-size: 18px;
